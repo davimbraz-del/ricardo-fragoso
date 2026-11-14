@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T18:31:45Z",
+  "title": "Design System: Ricardo Fragoso",
+  "extensions": {
+    "colorMeta": {
+      "mustard": {"role":"primary","displayName":"Mustard"},
+      "olive": {"role":"secondary","displayName":"Sage Olive"},
+      "moss-dark": {"role":"neutral","displayName":"Moss Black"},
+      "sand": {"role":"neutral","displayName":"Sand"}
+    },
+    "shadows": [
+      {"name":"cta-hover","value":"0 8px 20px -10px rgba(216,194,122,.55)","purpose":"Primary button hover lift."},
+      {"name":"featured","value":"0 30px 60px -36px rgba(216,194,122,.35)","purpose":"Featured plan card."},
+      {"name":"float","value":"0 12px 28px -10px rgba(0,0,0,.55), 0 2px 6px rgba(0,0,0,.2)","purpose":"Floating WhatsApp button."}
+    ],
+    "motion": [
+      {"name":"ease-out","value":"cubic-bezier(.16,1,.3,1)","purpose":"All transitions and reveal-on-scroll (22px rise, .9s)."}
+    ],
+    "breakpoints": [{"name":"phone","value":"560px"},{"name":"tablet","value":"860px"},{"name":"nav","value":"960px"}]
+  },
+  "components": [
+    {"name":"Primary Button","kind":"button","refersTo":"button-primary","description":"Mustard WhatsApp CTA.","html":"<a class=\"btn\">Agendar consulta</a>","css":".btn{display:inline-flex;align-items:center;min-height:52px;padding:.85rem 1.6rem;border-radius:8px;background:#D8C27A;color:#141A16;font:600 .98rem Inter,sans-serif;text-decoration:none}.btn:hover{background:#E4D08F;transform:translateY(-1px)}"}
+  ],
+  "narrative": {
+    "northStar": "The well-made training plan",
+    "keyCharacteristics": ["Moss-dark / sand alternation","Oswald uppercase display","Hairline rules","Sparing mustard"],
+    "dos": ["One WhatsApp action per block"],
+    "donts": ["No eyebrow labels above section headings","No gradient text or glows"]
+  }
+}
